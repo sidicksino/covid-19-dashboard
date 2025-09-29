@@ -1,0 +1,48 @@
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  width: 220px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Style spécifique à chaque type de carte */
+.confirmed {
+  border-top: 6px solid #007bff;
+  background-color: #e6f0ff;
+}
+
+.recovered {
+  border-top: 6px solid #28a745;
+  background-color: #e9f9ee;
+}
+
+.deaths {
+  border-top: 6px solid #dc3545;
+  background-color: #fdecea;
+}
+
+.countNumber {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.updated {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #888;
+}

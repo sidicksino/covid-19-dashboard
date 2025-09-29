@@ -1,0 +1,26 @@
+.countryContainer {
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  margin: 20px 0;
+}
+
+.countrySelect {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;      /* texte centré */
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.countrySelect:hover {
+  border-color: #888;
+  background-color: #fff;
+}
+
+.countrySelect:focus {
+  outline: none;
+  border-color: #4caf50;
+}
